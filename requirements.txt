@@ -1,1 +1,1 @@
-pyvesync @ git+https://github.com/AdrianCzebiniak/pyvesync@LTF-F422S-WUS#egg=pyvesync
+pyvesync @ git+https://github.com/AdrianCzebiniak/pyvesync/tree/LTF-F422S-WUS#egg=pyvesync
