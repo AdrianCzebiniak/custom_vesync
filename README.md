@@ -1,6 +1,7 @@
 
 # **Important message**
 > 
+> -=-=-=-= This is Adrian's version of the fork. =-=-=-=-
 > This a fork of the existing archived project created by vlebourl. Please contribute here.
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
