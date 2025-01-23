@@ -16,11 +16,11 @@
       "macaddress": "*"
     }
   ],
-  "documentation": "https://github.com/AdrianCzebiniak/custom_vesync",
+  "documentation": "https://github.com/micahqcade/custom_vesync",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/AdrianCzebiniak/custom_vesync",
+  "issue_tracker": "https://github.com/micahqcade/custom_vesync",
   "requirements": [
-    "pyvesync @ git+https://github.com/AdrianCzebiniak/pyvesync@LTF-F422S-WUS#egg=pyvesync"
+    "pyvesync==2.1.15"
   ],
   "version": "1.3.2"
 }

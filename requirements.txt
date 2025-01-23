@@ -1,1 +1,1 @@
-pyvesync @ git+https://github.com/AdrianCzebiniak/pyvesync@LTF-F422S-WUS#egg=pyvesync
+pyvesync==2.1.15
