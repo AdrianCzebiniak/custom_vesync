@@ -23,5 +23,5 @@
   "requirements": [
     "git+https://github.com/AdrianCzebiniak/pyvesync@master"
   ],
-  "version": "1.3.2"
+  "version": "1.3.3"
 }
