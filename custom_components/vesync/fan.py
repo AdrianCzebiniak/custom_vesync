@@ -169,15 +169,30 @@ class VeSyncFanHA(VeSyncDevice, FanEntity):
 
     def turn_on(
         self,
-        # speed: str | None = None,
-        percentage: int | None = None,
-        preset_mode: str | None = None,
         **kwargs,
     ) -> None:
         """Turn the device on."""
-        if preset_mode:
-            self.set_preset_mode(preset_mode)
-            return
-        if percentage is None:
-            percentage = 50
-        self.set_percentage(percentage)
+        success = self.smartfan.turn_on()
+        if not success:
+            raise ValueError("An error occurred while turning on.")
+
+    def turn_off(self, **kwargs) -> None:
+        """Turn the device off."""
+        success = self.smartfan.turn_off()
+        if not success:
+            raise ValueError("An error occurred while turning off.")
+
+    # def turn_on(
+    #     self,
+    #     # speed: str | None = None,
+    #     percentage: int | None = None,
+    #     preset_mode: str | None = None,
+    #     **kwargs,
+    # ) -> None:
+    #     """Turn the device on."""
+    #     if preset_mode:
+    #         self.set_preset_mode(preset_mode)
+    #         return
+    #     if percentage is None:
+    #         percentage = 50
+    #     self.set_percentage(percentage)
